@@ -1,0 +1,25 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database
+sqlalchemy==2.0.25
+sqlmodel==0.0.24
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Authentication & Security
+bcrypt==4.1.2
+pydantic[email]>=2.9.0,<3.0.0
+pydantic-settings==2.1.0
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.9
+
+# YouTube Transcript & Metadata
+pytubefix
+deepgram-sdk
+
+# Audio Processing & Speech Recognition
+pydub==0.25.1
+
+# Note Generation
+google-genai==1.49.0
